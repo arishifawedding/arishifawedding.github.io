@@ -264,10 +264,10 @@
     // + minutes + "Minutes " + seconds + "Seconds ";
 
     // Display the result in an element with id="demo"
-    document.getElementById("days").innerHTML = days + " " + "Days";
-    document.getElementById("hours").innerHTML = hours + " " + "Hours";
-    document.getElementById("minutes").innerHTML = minutes + " " + "Minutes";
-    document.getElementById("seconds").innerHTML = seconds + " " + "Seconds";
+    document.getElementById("days").innerHTML = days + " " + "Hari";
+    document.getElementById("hours").innerHTML = hours + " " + "Jam";
+    document.getElementById("minutes").innerHTML = minutes + " " + "Menit";
+    document.getElementById("seconds").innerHTML = seconds + " " + "Detik";
 
     // If the count down is finished, write some text
     if (distance < 0) {

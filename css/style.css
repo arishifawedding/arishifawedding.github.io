@@ -10,8 +10,8 @@
   font-style: normal;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Numans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Numans&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* =======================================================
 *
 * 	Template Style 
@@ -45,6 +45,7 @@ a:focus {
 
 p {
   margin-bottom: 1.5em;
+  font-family: "numans", sans-serif;
   font-size: 16px;
 }
 
@@ -123,7 +124,7 @@ h6 {
   margin-bottom: 0;
 }
 #bootstrap-header #navbar li a {
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
@@ -179,7 +180,7 @@ h6 {
   font-size: 30px;
   padding-left: 10px;
   color: #fff;
-  font-family: "Taviraj", cursive;
+  font-family: "Taviraj", sans-serif;
 }
 #bootstrap-header.navbar-fixed-top {
   position: fixed !important;
@@ -195,7 +196,7 @@ h6 {
   color: #5e5a55;
 }
 .judul {
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   color: #393e46;
   font-size: 30px;
 }
@@ -275,7 +276,7 @@ h6 {
   fill: #5e5a55;
 }
 .section-heading h2 {
-  font-size: 40px;
+  font-size: 80px;
   color: #5e5a55;
   display: block;
   padding-bottom: 20px;
@@ -394,7 +395,7 @@ h6 {
 .bootstrap-cover .display-tc .holder,
 .video-hero .display-tc .holder {
   color: #fff;
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -559,7 +560,7 @@ h6 {
 }
 #bootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
   color: #fff;
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -656,7 +657,7 @@ h6 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
 }
 #bootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.5);
@@ -705,7 +706,7 @@ h6 {
 }
 #bootstrap-couple h3 {
   font-size: 34px;
-  font-family: "Taviraj", cursive;
+  font-family: "Taviraj", sans-serif;
   color: #f6f5f5;
 }
 @media screen and (max-width: 768px) {
@@ -761,7 +762,7 @@ h6 {
 }
 #bootstrap-countdown .section-heading .datewed {
   font-size: 24px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
 }
 #bootstrap-countdown .section-heading.svg-sm .svg {
   height: 180px;
@@ -779,7 +780,7 @@ h6 {
   bottom: 0;
   right: 0;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
 }
 #bootstrap-countdown .countdown {
   margin-bottom: 30px;
@@ -798,21 +799,21 @@ h6 {
     margin: 0 2px;
     display: inline-block;
     font-size: 20px;
-    font-family: "Taviraj", Arial, sans-serif;
+    font-family: "Numans", sans-serif;
   }
 }
 
 #bootstrap-countdown .countdown span {
   margin: 0 5px;
   display: inline-block;
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   /* background-color: rgba(255, 100, 29, 0.747); */
 }
 
 #bootstrap-countdown .countdown small {
   /* display: inline; */
   font-size: 18px;
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -1193,7 +1194,7 @@ h6 {
   position: relative;
   padding: 0;
   font-size: 30px;
-  font-family: "Taviraj", cursive;
+  font-family: "Taviraj", sans-serif;
   font-style: italic;
 }
 #bootstrap-testimonials .arrow-thumb {
@@ -1239,7 +1240,7 @@ h6 {
   }
 }
 .groom-men h3 {
-  font-family: "Taviraj", cursive;
+  font-family: "Taviraj", sans-serif;
   font-size: 28px;
 }
 
@@ -1271,14 +1272,25 @@ h6 {
   left: 10px;
   right: 10px;
   content: "";
-  background: #eae2f4;
+  background: #f4f3e2;
   z-index: -1;
 }
 .wedding-events .desc h3 {
   font-size: 28px;
   color: #5e5a55;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.wedding-events .desc h4 {
+  font-size: 24px;
+  font-family: "Numans", sans-serif;
+  color: #000000;
+  margin: 20px;
+}
+.wedding-events .desc p {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .wedding-events .desc .date {
   display: block;
@@ -1653,7 +1665,7 @@ h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 0px 0px 30px 0px;
   color: #7f7f7f;
 }
 #footer .copyright {
@@ -1858,14 +1870,49 @@ h6 {
 
 .container .box {
   position: fixed;
+  height: 40%;
+  width: 80%;
   background-color: rgba(109, 98, 98, 0.5);
+}
+.box .id {
+  align-items: center;
+  padding: 78px;
+}
+
+@media screen and (max-width: 480px) {
+  .box .id {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .box a {
+    background-color: #5e5a55;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 20px;
+    /* width: 30%; */
+    height: 100%;
+  }
 }
 
 .id h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   margin: 10px 10px;
+}
+.id h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.id p {
+  font-size: 20px;
+  color: #fff;
+  margin: 10px;
 }
 
 .id div {
@@ -1881,6 +1928,12 @@ h6 {
   font-size: 18px;
   align-items: center;
   margin-bottom: 20px;
+  /* width: 30%; */
+  height: 100%;
+}
+
+.box.id p {
+  margin-top: 50px;
 }
 
 /* FH5CO */
@@ -1897,16 +1950,16 @@ h6 {
 }
 
 .fh5co-heading h2 {
-  font-size: 40px;
+  font-size: 56px;
   margin-bottom: 10px;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: bold;
   color: #5e5a55;
-  font-family: "Taviraj", cursive;
+  font-family: "Taviraj", sans-serif;
 }
 
 .fh5co-heading h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Taviraj", sans-serif;
   padding-bottom: 30px;
   color: #333333;
@@ -1914,8 +1967,8 @@ h6 {
 
 @media screen and (max-width: 768px) {
   .fh5co-heading h3 {
-    font-size: 18px;
-    font-family: "Taviraj", Arial, sans-serif;
+    font-size: 16px;
+    font-family: "Taviraj", sans-serif;
     padding-bottom: 20px;
     color: #333333;
   }
@@ -1929,7 +1982,7 @@ h6 {
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .couple-wrap {
@@ -1968,10 +2021,11 @@ h6 {
 @media screen and (max-width: 768px) {
   .couple-half {
     width: 100%;
+    margin: 10px 0px;
   }
 }
 .couple-half h3 {
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   color: #5e5a55;
   font-size: 30px;
 }
@@ -1993,6 +2047,7 @@ h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  background: beige;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom,
@@ -2005,6 +2060,7 @@ h6 {
     width: 120px;
     height: 120px;
     margin: 0 auto;
+    background: beige;
   }
 }
 .couple-half .groom {
@@ -2041,24 +2097,37 @@ h6 {
   }
 }
 
-.ayat {
-  padding-top: 50px;
-  font-size: 26px;
+.fh5co-heading .ayat {
+  padding-top: 5px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 480px) {
-  .ayat {
-    padding-top: 12px;
+  .fh5co-heading .ayat {
+    padding-top: 0px;
     margin: 0 30px 20px;
-    font-size: 20px;
+    font-size: 14px;
+  }
+}
+
+.ayat1 {
+  padding-top: 5px;
+  font-size: 22px;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .ayat1 {
+    padding-top: 0px;
+    margin: 0 30px 20px;
+    font-size: 14px;
     color: #fff;
   }
 }
 
-.ayat-desc {
+.fh5co-heading .ayat-desc {
   padding-top: 20px;
   font-size: 18px;
-  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -2066,6 +2135,21 @@ h6 {
     padding-top: 12px;
     margin: 0 30px 20px;
     font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.ayat-desc1 {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .ayat-desc1 {
+    padding-top: 12px;
+    margin: 0 30px 20px;
+    font-size: 14px;
     font-weight: 400;
     color: #fff;
   }
@@ -2158,7 +2242,7 @@ a .button {
 a.floating-btn {
   width: 52px;
   height: 52px;
-  padding: 12px 0px 0px 3px;
+  padding: 10x 0px 0px 1px !important;
   background: #5e5a55;
   text-decoration: none;
   border-radius: 50%;
@@ -2174,26 +2258,13 @@ a.floating-btn {
   z-index: 10;
 }
 
-@media screen and (max-width: 480px){
-  a.floating-btn {
-    width: 40px;
-    height: 40px;
-    right: 2px;
-    font-size: 12px;
-    padding: 10px 0px 10px 0px;
-}
-
-
 @media screen and (max-width: 768px) {
   a.floating-btn {
     width: 40px;
     height: 40px;
     right: 2px;
     font-size: 18px;
-  }
-
-  a.floating-btn i{
-    padding: 0px 0px 0px 2px;
+    padding: 10px 0px 0px 0px;
   }
 }
 
@@ -2209,7 +2280,7 @@ a.floating-btn {
 .covid-box .title {
   font-size: 30px;
   color: #180403;
-  font-family: "Taviraj", Arial, sans-serif;
+  font-family: "Numans", sans-serif;
   text-transform: inherit;
   display: inline-block;
   line-height: 2em;
@@ -2220,7 +2291,7 @@ a.floating-btn {
   .covid-box .title {
     font-size: 26px;
     color: #180403;
-    font-family: "Taviraj", Arial, sans-serif;
+    font-family: "Numans", sans-serif;
     text-transform: inherit;
     display: inline-block;
     line-height: 2em;
@@ -2233,7 +2304,7 @@ a.floating-btn {
 }
 .covid-box .desc-box p {
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 .covid-box .list-grid-box {
   width: 700px;
@@ -2265,6 +2336,21 @@ a.floating-btn {
 /*# sourceMappingURL=style.css.map */
 
 .button-menu {
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  border-top: 1px solid #ddd;
+  background-color: rgb(56, 13, 13);
+  box-shadow: rgb(0 0 0, 0.2) 0px 0px 3px 0px;
+  overflow-x: auto;
+  /* display: none; */
+  /* font-style: normal !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -2274,12 +2360,7 @@ a.floating-btn {
   display: flex;
   overflow-x: auto;
   z-index: 999;
-}
-
-.button-menu-item {
-  width: 100%;
-  height: 60px;
-  display: flex;
+  left: 0;
 }
 .nav__link {
   display: flex;
@@ -2301,6 +2382,15 @@ a.floating-btn {
   background-color: #eeeeee;
 }
 
+/* .nav__link--active {
+  color: #009578;
+} */
+
 .nav__icon {
   font-size: 18px;
+}
+.button-menu-item {
+  width: 100%;
+  height: 60px;
+  display: flex;
 }
